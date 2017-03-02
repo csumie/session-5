@@ -23,7 +23,7 @@ angular.module('foodApp').component('reviewList', {
     location: 'The Batcave',
     date: '2016-03-13',
     rating: 'rating5.png',
-    review: 'Holy Ghost Writer!, Holy Graf Zeppelin!, Holy Hamburger!, Holy Homework!, Holy Jaw Breaker!, Holy Knock Out Drops!, Holy Long John Silver!, Holy Mashed Potatoes!, Holy Molars!, Holy Nick Of Time!, Holy Oversight!, Holy Popcorn!, Holy Ravioli!, Holy Rip Van Winkle!, Holy Sardine!, Holy Semantics!, Holy Sonic Boom!, Holy Spider Webs!, Holy Subliminal!, Holy Time Bomb!, Holy Understatements!, Holy Waste Of Energy!, Holy Wayne Manor!',
+    review: 'Holy Ghost Writer!, Holy Led Zeppelin!, Holy Hamburger!, Holy Homework!, Holy Nick Of Time!, Holy Oversight!, Holy Popcorn!, Holy Ravioli!, Holy Wayne Manor!',
     image: 'robin.jpg'
   },
   {
