@@ -1,0 +1,15 @@
+<div class="wrap">
+<ul>
+<li ng-repeat="review in $ctrl.review">
+<img ng-src="img/reviews/{{ review.image }}">
+<div>
+  <h1><a href="#0">{{ review.name }}</a></h1>
+  <p><h3>{{ review.location }}</h3>
+  <p>{{ review.date }}
+  <p><img ng-src="img/reviews/{{ review.rating }}">
+  <p>{{ review.review }}
+</div>
+</li>
+</ul>
+
+</div>
