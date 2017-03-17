@@ -17,14 +17,14 @@
     name: 'recipe1210',
     title: 'Guacamole',
     date: '2012-10-01',
-    description: 'Guacamole is defi nitely a staple of Mexican cuisine. Even though Guacamole is pretty simple, it can be tough to get the perfect flavor – with this authentic Mexican guacamole recipe, though, you will be an expert in no time.',
+    description: 'Guacamole is definitely a staple of Mexican cuisine. Even though Guacamole is pretty simple, it can be tough to get the perfect flavor – with this authentic Mexican guacamole recipe, though, you will be an expert in no time.',
     image: 'guacamole.png'
   },
   {
     name: 'recipe1810',
     title: 'Hamburger',
     date: '2012-10-20',
-    description: 'A Hamburger (often called a burger) is a type of sandwich in the form of  rounded bread sliced in half with its center filled with a patty which is usually ground beef, then topped with vegetables such as lettuce, tomatoes and onions.',
+    description: 'A Hamburger (often called a burger) is a type of sandwich in the form of rounded bread sliced in half with its center filled with a patty which is usually ground beef, then topped with vegetables such as lettuce, tomatoes and onions.',
     image: 'hamburger.png'
   }
 ]
