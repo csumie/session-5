@@ -1,0 +1,15 @@
+<div class="wrap" itemscope itemtype="http://schema.org/Review">
+
+    <h1>{{ $ctrl.review.title }}</h1>
+    <ul class ="review-thumbs">
+    	<li ng-repeat="img in $ctrl.review.images">
+    		<img ng-src="img/reviews/{{img}}" ng-click="$ctrl.setImage(img)" />
+    	</li>
+    </ul>
+	<img ng-src="img/reviews/{{ $ctrl.mainImageUrl }}" class="review-detail-image" />
+    <p>{{ $ctrl.review.name }}</p>
+    <p><h4>{{ $ctrl.review.location }}</h4>
+    <p><h5>{{ $ctrl.review.date }}</h5>
+    <p>{{ $ctrl.review.rating }}
+    <p>{{ $ctrl.review.review }}
+</div>
