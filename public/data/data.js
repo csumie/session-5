@@ -26,5 +26,19 @@
     date: '2012-10-20',
     description: 'A Hamburger (often called a burger) is a type of sandwich in the form of rounded bread sliced in half with its center filled with a patty which is usually ground beef, then topped with vegetables such as lettuce, tomatoes and onions.',
     image: 'hamburger.png'
+  },
+  {
+    name: 'review1111',
+    title: 'Batman',
+    date: '2012-10-20',
+    description: 'Member since 1965. Loves burgers and catching bad guys.',
+    image: 'batman.jpg'
+  },
+  {
+    name: 'review2222',
+    title: 'Joker',
+    date: '2012-10-20',
+    description: 'Member since 1969. Loves to be a bad guy and make people laugh.',
+    image: 'joker.jpg'
   }
 ]
