@@ -1,11 +1,11 @@
 angular.module('foodApp').component('reviewDetail', {
 	templateUrl: 'js/reviews/review-detail.template.html',
-	controller: function ReviewDetailController($routeParams, $http) {
+	controller: function ReviewListController($routeParams, $http) {
 	
 		$http.get('data/' + $routeParams.reviewId + '.json')
 		.then(response => {
 			this.review = response.data
-			this.setImage(self.review.images[2])
+			this.setImage(this.review.images)
 		});
 		
 		this.setImage = imageUrl =>

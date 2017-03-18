@@ -6,10 +6,16 @@
     		<img ng-src="img/reviews/{{img}}" ng-click="$ctrl.setImage(img)" />
     	</li>
     </ul>
-	<img ng-src="img/reviews/{{ $ctrl.mainImageUrl }}" class="review-detail-image" />
-    <p>{{ $ctrl.review.name }}</p>
-    <p><h4>{{ $ctrl.review.location }}</h4>
-    <p><h5>{{ $ctrl.review.date }}</h5>
-    <p>{{ $ctrl.review.rating }}
-    <p>{{ $ctrl.review.review }}
+
+	<center><img ng-src="img/reviews/{{$ctrl.mainImageUrl}}" class="review-detail-image" /></center>
+
+     <p>{{ $ctrl.review.description }}</p>
+
+    <h3>Facts {{ $ctrl.reviewId }}</h3>
+    <ul class="facts">
+        <li ng-repeat="fact in $ctrl.review.facts">
+            {{ fact }}
+        </li>
+    </ul>
+
 </div>
